@@ -1,0 +1,8 @@
+{
+  "build": { "distDir": "../src", "devPath": "../src", "beforeBuildCommand": "" },
+  "package": { "productName": "Aegis-Log", "version": "0.1.0" },
+  "tauri": {
+    "bundle": { "active": true, "targets": ["msi"], "identifier": "com.aegis.log.app", "icon": [] },
+    "windows": [{ "title": "Aegis-Log", "width": 800, "height": 600 }]
+  }
+}
