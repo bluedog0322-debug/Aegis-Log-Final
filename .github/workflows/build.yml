@@ -14,6 +14,8 @@ jobs:
       - name: build
         run: |
           npm install
+          # ↓ この1行を追加（PNGからアイコン一式を自動生成します）
+          npx tauri icon src-tauri/icon.png
           npx tauri build
       - name: upload
         if: success()
