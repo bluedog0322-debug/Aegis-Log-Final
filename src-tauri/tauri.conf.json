@@ -12,7 +12,7 @@
     "allowlist": {
       "all": true
     },
-        "bundle": {
+            "bundle": {
       "active": true,
       "targets": ["msi"],
       "identifier": "com.aegis.log.app",
@@ -24,6 +24,7 @@
         "icons/icon.ico"
       ]
     },
+
 
     "windows": [
       {
