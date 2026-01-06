@@ -20,4 +20,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Aegis-Log-Installer
-          path: src-tauri/target/release/bundle/msi/*.msi
+          # 2026年の最新構成でも確実に見つけ出すパスです
+          path: |
+            src-tauri/target/release/bundle/msi/*.msi
+            src-tauri/target/release/bundle/setup.exe
+            src-tauri/target/release/bundle/exe/*.exe
